@@ -209,6 +209,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="views\almacen\" />
+    <Folder Include="views\estadisticas\" />
+    <Folder Include="views\ventas\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
