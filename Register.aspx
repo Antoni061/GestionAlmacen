@@ -57,6 +57,11 @@
                         <button type="submit" class="btn btn-success">
                             <span class="glyphicon glyphicon-floppy-disk"></span> Registrar
                         </button>
+
+                    </div>
+                    <!-- Enlace para login -->
+                    <div class="text-center mt-3">
+                        <p>¿Ya tienes una cuenta? <a href="Login.aspx" class="text-primary">Inicia Sesión</a></p>
                     </div>
                 </div>
             </div>

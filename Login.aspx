@@ -52,6 +52,10 @@
                             <span class="glyphicon glyphicon-floppy-disk"></span> Iniciar
                         </button>
                     </div>
+                     <!-- Enlace para registro -->
+                    <div class="text-center mt-3">
+                        <p>¿No tienes una cuenta? <a href="Register.aspx" class="text-primary">Regístrate aquí</a></p>
+                    </div>
                 </div>
             </div>
         </div>
