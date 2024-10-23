@@ -1,10 +1,10 @@
 ﻿//------------------------------------------------------------------------------
-// <generado automáticamente>
-//     Este código fue generado por una herramienta.
+// <généré automatiquement>
+//     Ce code a été généré par un outil.
 //
-//     Los cambios en este archivo podrían causar un comportamiento incorrecto y se perderán si
-//     se vuelve a generar el código. 
-// </generado automáticamente>
+//     Les changements apportés à ce fichier peuvent provoquer un comportement incorrect et seront perdues si
+//     le code est régénéré.
+// </généré automatiquement>
 //------------------------------------------------------------------------------
 
 namespace GestionAlmacen

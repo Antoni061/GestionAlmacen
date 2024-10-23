@@ -166,6 +166,7 @@
     <Content Include="Styles\tooplate-clean-work.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="views\almacen\GestiondelAlmacen.aspx" />
+    <Content Include="views\RegistroDeVentas\HistorialVentas.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -238,10 +239,16 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="views\RegistroDeVentas\HistorialVentas.aspx.cs">
+      <DependentUpon>HistorialVentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\RegistroDeVentas\HistorialVentas.aspx.designer.cs">
+      <DependentUpon>HistorialVentas.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="views\estadisticas\" />
     <Folder Include="views\ventas\" />
   </ItemGroup>
   <ItemGroup>
