@@ -10,6 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="../../Styles/styles1.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -45,12 +48,10 @@
                                 <label for="stockProductoCrear">Stock</label>
                                 <input type="number" class="form-control" id="stockProductoCrear" placeholder="Ingresa el stock" />
                             </div>
-                            <div id="hdvComboUbicacion1" class="form-group">
-                                    <label for="hslcUbicacion1">Selecciona el nuevo estado:</label>
-                                    <select id="hslcUbicacion1" name="hslcCambioEstado" class="form-control selectpicker" data-width="100%">
-                                        <option value="01">Estante A1</option>
-                                        <option value="02">Estante A2</option>
-                                    </select>
+                            <div class="form-group">
+                                <label class="form-label">CLIENTE:</label>
+                                <div id="hdvComboCliente" runat="server">
+                                </div>
                             </div>
                             <button type="submit" class="btn btn-success">Crear Producto</button>
                         </div>

@@ -362,7 +362,7 @@ public class Utilerias
         //Se ejecuta la consulta para obtener los datos
         dsDatos = objConexion.ejecutarConsultaRegistroMultiplesDataSet(objUtileria.sQuery, objUtileria.sNombre);
         //Se crea select
-        objUtileria.sContenido += "<select id='" + objUtileria.sNombre + "' name='" + objUtileria.sNombre + "' data-width='100%' data-live-search='true' title='' multiple class='selectpicker " + objUtileria.sClases + "'>";
+        objUtileria.sContenido += "<select id='" + objUtileria.sNombre + "' name='" + objUtileria.sNombre + "' data-width='100%' data-live-search='true' title='' class='selectpicker " + objUtileria.sClases + "'>";
         //Se verifica que se tengan datos
         if (dsDatos.Tables[objUtileria.sNombre].Rows.Count > 0)
         {
